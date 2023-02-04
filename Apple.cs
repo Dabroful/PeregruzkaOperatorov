@@ -19,5 +19,13 @@ namespace PeregruzkaOperatorov
             var apple = new Apple("Яблоко", calories, volume);
             return apple;
         }
+
+        public static Apple operator +(Apple apple1, Apple apple2)
+        {
+            int calories = (int)Math.Round(((apple1.Calorie + apple2.Calorie) / 2.0));
+            var volume = apple1.Volume + apple2.Volume;
+            var apple = new Apple("Яблоко", calories, volume);
+            return apple;
+        }
     }
 }
