@@ -1,0 +1,7 @@
+D:\Разработка\C#\PeregruzkaOperatorov\bin\Debug\PeregruzkaOperatorov.exe
+D:\Разработка\C#\PeregruzkaOperatorov\bin\Debug\PeregruzkaOperatorov.pdb
+D:\Разработка\C#\PeregruzkaOperatorov\obj\Debug\PeregruzkaOperatorov.csproj.AssemblyReference.cache
+D:\Разработка\C#\PeregruzkaOperatorov\obj\Debug\PeregruzkaOperatorov.csproj.SuggestedBindingRedirects.cache
+D:\Разработка\C#\PeregruzkaOperatorov\obj\Debug\PeregruzkaOperatorov.csproj.CoreCompileInputs.cache
+D:\Разработка\C#\PeregruzkaOperatorov\obj\Debug\PeregruzkaOperatorov.exe
+D:\Разработка\C#\PeregruzkaOperatorov\obj\Debug\PeregruzkaOperatorov.pdb

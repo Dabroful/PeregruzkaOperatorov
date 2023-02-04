@@ -5,6 +5,7 @@ namespace PeregruzkaOperatorov
     //создаем общий класс для всех продуктов
     public abstract class Product
     {
+        //объявляем свойства класса
         public string Name { get; }
         public int Calorie { get; }
         public int Volume { get; set; }
@@ -41,7 +42,7 @@ namespace PeregruzkaOperatorov
 
         public override string ToString()
         {
-            return Name;
+            return $"{Name}. Каллорийность: {Calorie}, объем {Volume} ";
         }
     }
 }

@@ -11,7 +11,6 @@ namespace PeregruzkaOperatorov
             
         }
 
-        //складываем двав яблока
         public static Apple Add(Apple apple1, Apple apple2)
         {
             int calories = (int)Math.Round(((apple1.Calorie + apple2.Calorie) / 2.0));
@@ -20,6 +19,7 @@ namespace PeregruzkaOperatorov
             return apple;
         }
 
+        //складываем два яблока
         public static Apple operator +(Apple apple1, Apple apple2)
         {
             int calories = (int)Math.Round(((apple1.Calorie + apple2.Calorie) / 2.0));
