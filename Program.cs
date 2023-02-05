@@ -7,16 +7,16 @@ namespace PeregruzkaOperatorov
     {
         public static void Main(string[] args)
         {
-            Apple apple = new Apple("красное яблоко", 100, 100);
-            Apple apple2 = new Apple("зеленое яблоко", 90, 110);
+            Poroda vyatskaya = new Poroda("Вятская", 350, 1);
+            Poroda yakutskaya = new Poroda("Якутская", 500, 2);
 
-            var sumApple = Apple.Add(apple, apple2);
-            var sumApple2 = apple + apple2;
+            var Telega1 = Poroda.Add(vyatskaya, yakutskaya);
+            var Telega2 = vyatskaya + yakutskaya;
             
-            Console.WriteLine(apple);
-            Console.WriteLine(apple2);
-            Console.WriteLine(sumApple);
-            Console.WriteLine(sumApple2);
+            Console.WriteLine(vyatskaya);
+            Console.WriteLine(yakutskaya);
+            Console.WriteLine(Telega1);
+            Console.WriteLine(Telega2);
 
             Console.ReadLine();
         }

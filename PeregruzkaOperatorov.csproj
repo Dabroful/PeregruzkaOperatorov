@@ -39,8 +39,8 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Apple.cs" />
-        <Compile Include="Product.cs" />
+        <Compile Include="Horses.cs" />
+        <Compile Include="Poroda.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
